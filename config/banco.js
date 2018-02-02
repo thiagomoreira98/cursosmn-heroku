@@ -10,7 +10,7 @@ module.exports = function () {
     //     port: process.env.POSTGRES_PORT || 5432
     // };
 
-    const config = "postgres://hnvfbcooydhwjv:7bea90dfa873becc3b68738dab52f6474e93bf8c9b521e12c0e0a6467c7006ee@ec2-54-83-203-198.compute-1.amazonaws.com:5432/denuhc7akdjsgl ";
+    const config = "postgres://yzhkvehddmpcoa:756a8e937fef6f3fa2b575fa7b2b46aa84ae3d867ff0b4b93dba33ea1b95725d@ec2-54-83-203-198.compute-1.amazonaws.com:5432/dddngcj5q0hlo2";
     
     const db = new pg.Client(config);
     
